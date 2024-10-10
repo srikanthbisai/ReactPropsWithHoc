@@ -10,7 +10,7 @@ function App() {
   return (
     <>
      <h1>This is a demonstration of HOC usage to pass props</h1>
-     <WrappedChild/>  
+     <WrappedChild/>   {/*Displaying the child component with updated props through HOC component */}
     </>
   )
 }
